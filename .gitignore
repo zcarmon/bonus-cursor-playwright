@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+.pytest_cache/
+playwright-report/
+test-results/
+allure-results/
+allure-report/
+
+# Python bytecode/cache artifacts
+*.py[cod]
+*.pyo
+*.pyd
+
+# Coverage outputs
+.coverage
+.coverage.*
+htmlcov/
+
+# Environment files
+.env
+.env.*
+
+# IDE/editor folders
+.idea/
+.vscode/
