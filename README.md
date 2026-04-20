@@ -77,6 +77,16 @@ Or generate static report:
 allure generate allure-results -o allure-report --clean
 ```
 
+## GitHub Actions (Auto Test Run)
+
+This project includes a CI workflow at `.github/workflows/tests.yml` that runs automatically on:
+
+- Push to `main`
+- Pull requests targeting `main`
+- Manual trigger from the Actions tab (`workflow_dispatch`)
+
+The workflow runs the suite headless on both Chromium and Firefox.
+
 ## Test Data
 
 - Accepted users are stored in `test_data/accepted_users.json`
